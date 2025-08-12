@@ -1,0 +1,59 @@
+@use 'colors' as *;
+@use 'main' as *;
+@use 'fonts' as *;
+
+header{
+ background-color: $color__background; 
+}
+
+.header__inner{
+  padding-top: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__btn{
+  display: none;
+  width: 30px;
+  height: 25px;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.menu__btn span{
+  height: 1px;
+  background-color: $header__menu-color;
+  width: 100%;
+}
+
+.menu__list{
+  display: flex;
+  gap: 20px;
+}
+
+.menu__list-link{
+  text-transform: uppercase;
+}
+
+.phone{
+  position: relative;
+}
+
+.header__phone::before {
+  content: '';
+  position: absolute;
+  background-image: url(../images/src/phone.svg);
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  left: -23px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+

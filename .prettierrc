@@ -4,5 +4,8 @@
   "singleQuote": true,
   "trailingComma": "es5",
   "arrowParens": "always",
-  "bracketSpacing": true
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "strict",
+  "bracketSameLine": false,
+  "useTabs": false
 }

@@ -1,0 +1,35 @@
+@use 'colors' as *;
+@use 'main' as *;
+@use 'fonts' as *;
+
+footer{
+  background-color: $color__footer-bg;
+}
+
+.footer__inner{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 39px;
+  margin-bottom: 34px;
+}
+
+.footer__contacts{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+  width: 230px;
+}
+
+
+// m17-0
+.email{
+  margin: 17px 0;
+}
+
+
+.footer__social{
+  display: flex;
+  gap: 15px;
+}

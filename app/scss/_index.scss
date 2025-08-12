@@ -1,0 +1,10 @@
+// forward all partials to make them available via @use
+
+@forward 'components/main';
+@forward 'components/colors';
+@forward 'components/fonts';
+
+@forward 'components/header';
+@forward 'components/footer';
+@forward 'components/media';
+
