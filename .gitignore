@@ -35,7 +35,7 @@ Thumbs.db
 .env.production.local
 
 # GitHub Pages build output
-docs/
+# docs/
 
 # Misc
 *.bak
