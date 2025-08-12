@@ -10,7 +10,7 @@ node_modules/
 jspm_packages/
 
 # Build output
-dist/
+
 build/
 
 # Optional cache directories
