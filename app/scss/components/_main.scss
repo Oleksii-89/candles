@@ -1,3 +1,8 @@
+@use 'colors' as *;
+@use 'fonts' as *;
+
+
+
 html{
   box-sizing: border-box;
 }
@@ -38,3 +43,15 @@ a {
   margin: 0 auto;
 }
 
+button{
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  cursor: pointer;
+}
+
+
+.main {
+  background-color: $color__background;
+  overflow-x: clip;
+}

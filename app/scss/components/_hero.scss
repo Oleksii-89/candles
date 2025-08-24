@@ -1,0 +1,46 @@
+@use 'colors' as *;
+@use 'main' as *;
+@use 'fonts' as *;
+
+
+
+
+.hero{
+  padding: 31px 0 150px;
+  
+}
+
+.hero__content{
+  width: 370px;
+  padding: 163px 0 250px;
+  
+}
+
+
+.hero__title{
+font-size: 30px;
+font-weight: 400;
+font-family: "Yeseva One", serif;
+}
+
+.hero__text{
+  margin: 15px 0 48px;
+}
+
+.hero__btn{
+padding: 18px 54px;
+background-color: #FFBD59;
+font-family: "Comfortaa", sans-serif;
+font-size: 14px;
+font-weight: 600;
+}
+
+.hero__img{
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+
+.hero__inner{
+position: relative;
+}
