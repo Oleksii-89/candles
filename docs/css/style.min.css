@@ -1,4 +1,17 @@
 @charset "UTF-8";
+.comfortaa-font {
+  font-family: "Comfortaa", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.yeseva-one-regular {
+  font-family: "Yeseva One", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -40,17 +53,16 @@ a {
   margin: 0 auto;
 }
 
-.comfortaa-font {
-  font-family: "Comfortaa", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
+button {
+  border: none;
+  padding: 0;
+  border-radius: 0;
+  cursor: pointer;
 }
 
-.yeseva-one-regular {
-  font-family: "Yeseva One", serif;
-  font-weight: 400;
-  font-style: normal;
+.main {
+  background-color: #FFF8F3;
+  overflow-x: clip;
 }
 
 header {
@@ -161,6 +173,43 @@ footer {
   display: -ms-flexbox;
   display: flex;
   gap: 15px;
+}
+
+.hero {
+  padding: 31px 0 150px;
+}
+
+.hero__content {
+  width: 370px;
+  padding: 163px 0 250px;
+}
+
+.hero__title {
+  font-size: 30px;
+  font-weight: 400;
+  font-family: "Yeseva One", serif;
+}
+
+.hero__text {
+  margin: 15px 0 48px;
+}
+
+.hero__btn {
+  padding: 18px 54px;
+  background-color: #FFBD59;
+  font-family: "Comfortaa", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.hero__img {
+  position: absolute;
+  top: 0;
+  left: 240px;
+}
+
+.hero__inner {
+  position: relative;
 }
 
 @media (max-width: 1000px) {
@@ -274,5 +323,79 @@ footer {
   footer {
     padding: 50px 0;
     font-size: 14px;
+  }
+}
+@media (max-width: 1000px) {
+  .hero__content {
+    width: 333px;
+    padding: 95px 0 70px;
+  }
+  .hero__img {
+    left: 300px;
+  }
+  .hero__img-l {
+    width: 655px;
+  }
+}
+@media (max-width: 768px) {
+  .hero__content {
+    width: 230px;
+    padding: 95px 0 70px;
+  }
+  .hero__title {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .hero__text {
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .hero__img {
+    left: 180px;
+  }
+}
+@media (max-width: 480px) {
+  .hero__img-l {
+    width: 308px;
+    left: 167px;
+  }
+  .hero__content {
+    width: 179px;
+  }
+  .hero__title {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  .hero__text {
+    font-size: 8px;
+    margin-bottom: 15px;
+    width: 167px;
+  }
+  .hero__btn {
+    font-size: 10px;
+    padding: 14px 41px;
+  }
+  .hero {
+    padding: 30px 0 50px;
+  }
+}
+@media (max-width: 360px) {
+  .hero__img-l {
+    width: 185px;
+  }
+  .hero__img {
+    right: auto;
+    top: -35px;
+  }
+  .hero__content {
+    width: 203px;
+    padding: 20px 0 0;
+  }
+  .hero__title {
+    font-size: 18px;
+  }
+  .hero__text {
+    font-size: 10px;
+    width: 198px;
   }
 }
